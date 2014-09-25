@@ -1,0 +1,22 @@
+#pragma once
+#ifndef PRAND
+#define PRAND
+
+////////////////////////////////////////////////////////////
+// random.h created by Jak R. Boulton, 2013
+// University of Glamorgam, Software Engineering
+////////////////////////////////////////////////////////////
+
+////////////////////////////////////////////////////////////
+// Provides two main functions
+// One to seed the random generator and another to
+// generate a random number between 0 and 1
+////////////////////////////////////////////////////////////
+
+// Seed random
+void seedRandom();
+
+// Return a number between 0 - 1
+float random();
+
+#endif
